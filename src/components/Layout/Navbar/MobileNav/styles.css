@@ -1,0 +1,11 @@
+.mobileNav {
+  @apply bg-neutral-800 border-2 border-neutral-700 duration-200 fixed flex flex-col left-4 mt-16 p-3 pointer-events-none opacity-0 right-4 rounded-lg top-0 z-10 sm:hidden;
+}
+
+.mobileNav.visible {
+  @apply opacity-100 pointer-events-auto;
+}
+
+.mobileNav-item {
+  @apply text-base justify-center;
+}

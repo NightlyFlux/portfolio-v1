@@ -1,0 +1,31 @@
+.heading {
+  @apply font-bold font-mPlus text-center;
+}
+
+.heading > span {
+  @apply text-primary;
+}
+
+h1.heading {
+  @apply text-6xl sm:text-7xl;
+}
+
+h2.heading {
+  @apply text-5xl sm:text-6xl;
+}
+
+h3.heading {
+  @apply text-4xl sm:text-5xl;
+}
+
+h4.heading {
+  @apply text-3xl sm:text-4xl;
+}
+
+h5.heading {
+  @apply text-2xl sm:text-3xl;
+}
+
+h6.heading {
+  @apply text-xl sm:text-2xl;
+}

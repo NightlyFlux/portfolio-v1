@@ -1,0 +1,7 @@
+.footer {
+  @apply py-8;
+}
+
+.footer-text {
+  @apply text-center text-neutral-400 text-sm;
+}

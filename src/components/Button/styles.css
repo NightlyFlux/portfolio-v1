@@ -1,0 +1,11 @@
+.button {
+  @apply bg-primary duration-200 font-medium inline-flex items-center outline-none px-6 py-3 rounded-full select-none space-x-2 text-center text-gray-100 transition-all whitespace-nowrap focus:ring-primary focus:ring-2 focus:ring-offset-2 hover:bg-primary-dark;
+}
+
+.button.outlined {
+  @apply bg-transparent border-2 border-primary text-primary hover:bg-opacity-10 hover:bg-primary;
+}
+
+.button > svg {
+  @apply mr-1
+}

@@ -1,0 +1,25 @@
+/* Layout */
+@import '../components/Layout/Content/styles.css';
+@import '../components/Layout/Footer/styles.css';
+@import '../components/Layout/Navbar/styles.css';
+@import '../components/Layout/Navbar/Logo/styles.css';
+@import '../components/Layout/Navbar/MobileNav/styles.css';
+@import '../components/Layout/Navbar/NavItem/styles.css';
+@import '../components/Layout/Navbar/PrimaryNav/styles.css';
+@import '../components/Layout/Navbar/SocialNav/styles.css';
+/* Sections */
+/* @import '../components/sections/About/styles.css';
+@import '../components/sections/Contact/styles.css';
+@import '../components/sections/Hero/styles.css';
+@import '../components/sections/Profile/styles.css';
+@import '../components/sections/Projects/styles.css';
+@import '../components/sections/Projects/Project/styles.css';
+@import '../components/sections/Skills/styles.css';
+@import '../components/sections/Skills/Skill/styles.css'; */
+/* UI */
+/* @import '../components/common/Alert/styles.css';
+@import '../components/common/Badge/styles.css'; */
+@import '../components/Button/styles.css';
+@import '../components/Heading/styles.css';
+/* @import '../components/common/Link/styles.css';
+@import '../components/common/VoxelRoom/styles.css'; */

@@ -1,0 +1,8 @@
+@layer base {
+  html {
+    @apply antialiased;
+  }
+  body {
+    @apply bg-neutral-100 font-DMSans text-neutral-900;
+  }
+}
