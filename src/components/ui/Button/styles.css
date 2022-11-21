@@ -1,0 +1,45 @@
+.button {
+  @apply bg-violet-600 border border-transparent cursor-pointer duration-200 ease-in-out font-semibold inline-flex items-center justify-center leading-tight min-h-[44px] px-5 rounded-full select-none shadow-lg space-x-2 text-center text-neutral-50 text-sm transition-all whitespace-nowrap;
+  @apply hover:bg-violet-500 hover:-translate-y-0.5;
+  @apply focus:outline-none focus:ring-1 focus:ring-violet-400 focus:ring-offset-2 focus:ring-offset-neutral-50 dark:focus:ring-offset-neutral-900;
+  @apply active:bg-violet-700 active:translate-y-0.5;
+  @apply disabled:bg-neutral-200 disabled:text-neutral-400 disabled:pointer-events-none dark:disabled:bg-neutral-500 dark:disabled:text-neutral-600;
+}
+
+.button.outlined {
+  @apply bg-transparent border border-violet-500 shadow-none text-violet-500;
+  @apply hover:bg-violet-300/20 dark:hover:bg-violet-300/5;
+  @apply focus:bg-violet-300/40 dark:focus:bg-violet-300/10 focus:ring-0 focus:ring-offset-0;
+  @apply active:bg-violet-300/60 dark:active:bg-violet-300/20;
+  @apply disabled:border-neutral-300 disabled:text-neutral-300 dark:disabled:border-neutral-500 dark:disabled:text-neutral-500;
+}
+
+.button.ghost {
+  @apply bg-transparent border border-transparent shadow-none text-violet-500;
+  @apply hover:bg-violet-300/20 dark:hover:bg-violet-600/10;
+  @apply focus:bg-violet-300/40 dark:focus:bg-violet-600/20 focus:ring-0 focus:ring-offset-0;
+  @apply active:bg-violet-300/60 dark:active:bg-violet-600/30;
+  @apply disabled:text-neutral-300 dark:disabled:text-neutral-500;
+}
+
+.button.link {
+  @apply bg-transparent inline outline-none px-0 relative rounded-none shadow-none text-violet-600;
+  @apply hover:text-violet-500;
+  @apply focus:ring-0 focus:ring-offset-0 focus:text-violet-500;
+  @apply after:absolute after:bg-violet-600 after:block after:-bottom-0.5 after:duration-200 after:h-0.5 after:left-0 after:rounded-full after:transition-all after:w-0;
+  @apply after:hover:w-full;
+  @apply disabled:text-neutral-300 dark:disabled:text-neutral-500;
+}
+
+a.button.disabled {
+  @apply bg-neutral-200 text-neutral-400 pointer-events-none dark:bg-neutral-500 dark:text-neutral-600;
+}
+
+a.button.outlined.disabled {
+  @apply bg-transparent border-neutral-300 text-neutral-300 dark:border-neutral-500 dark:text-neutral-500;
+}
+
+a.button.ghost.disabled,
+a.button.link.disabled {
+  @apply bg-transparent text-neutral-300 dark:text-neutral-500;
+}

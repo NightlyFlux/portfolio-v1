@@ -1,0 +1,11 @@
+.skill {
+  @apply flex flex-col items-center justify-center space-y-2;
+}
+
+.skill-icon {
+  @apply bg-neutral-500/10 h-12 p-2 rounded-lg w-12 dark:bg-neutral-50/10;
+}
+
+.skill-name {
+  @apply font-semibold text-neutral-700 text-center dark:text-neutral-400;
+}

@@ -1,0 +1,24 @@
+.about-info {
+  @apply flex flex-col gap-4 mb-6 sm:flex-row;
+}
+
+.about-text {
+  @apply flex flex-col flex-1 items-center space-y-1 z-10 sm:items-start sm:justify-center;
+}
+
+.about-picture {
+  @apply border-4 border-violet-600 duration-300 ease-in-out overflow-hidden rounded-full self-center shadow-lg transition-transform z-10;
+  @apply hover:duration-500 hover:rotate-12 hover:scale-110;
+}
+
+.about-description {
+  @apply flex flex-col space-y-2;
+}
+
+.about-description strong{
+  @apply font-semibold;
+}
+
+.about-button {
+  @apply mt-6 flex flex-col items-stretch sm:items-center;
+}

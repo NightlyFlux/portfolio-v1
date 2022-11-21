@@ -1,0 +1,21 @@
+.contact-content {
+  @apply flex flex-col gap-6 sm:flex-row;
+}
+
+.contact-info {
+  @apply relative sm:w-1/2;
+}
+
+.contact-image {
+  @apply absolute top-0 left-0 invert z-[-1] dark:invert-0;
+}
+
+.contact-form {
+  @apply flex flex-col space-y-4 sm:w-1/2;
+}
+
+.form-input {
+  @apply bg-neutral-800/10  ring-1 ring-neutral-800/10 duration-200 outline-none px-4 py-2.5 rounded-lg transition-all;
+  @apply dark:bg-neutral-50/10 dark:ring-1 dark:ring-neutral-50/10;
+  @apply focus:ring-violet-600;
+}

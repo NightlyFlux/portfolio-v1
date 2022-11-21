@@ -1,0 +1,17 @@
+.logo {
+  @apply flex items-center space-x-2;
+}
+
+.logo-icon {
+  @apply duration-500 text-violet-600 text-2xl transition-all;
+  @apply hover:scale-110;
+}
+
+.logo-text {
+  @apply font-bold font-mPlus inline-flex tracking-tighter text-lg whitespace-pre sm:text-xl;
+}
+
+.logo-letter {
+  @apply duration-500 transition-all;
+  @apply hover:duration-100 hover:text-violet-600 hover:-mt-1;
+}

@@ -1,0 +1,7 @@
+#hero {
+  @apply h-80 -mx-6 relative;
+}
+
+.hero-canvas {
+  @apply !absolute !h-[32rem] inset-0 z-0;
+}

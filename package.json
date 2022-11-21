@@ -1,20 +1,43 @@
 {
   "name": "portfolio-v1",
   "version": "0.1.0",
+  "description": "Salvador's portfolio website",
+  "author": "Salvador Gómez<nightlyflux@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nightlyflux/portfolio-v1"
+  },
+  "license": "MIT",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
+    "@loadable/component": "^5.15.2",
+    "@react-three/drei": "^9.40.0",
+    "@react-three/fiber": "^8.9.1",
+    "@types/loadable__component": "^5.13.4",
     "@types/node": "18.11.9",
     "@types/react": "18.0.24",
     "@types/react-dom": "18.0.8",
+    "@types/three": "^0.144.0",
+    "classnames": "^2.3.2",
+    "framer-motion": "^7.6.4",
     "next": "13.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-hook-form": "^7.39.0",
+    "react-icons": "^4.6.0",
+    "sharp": "^0.31.2",
+    "three": "^0.146.0",
     "typescript": "4.8.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.18",
+    "postcss-import": "^15.0.0",
+    "tailwindcss": "^3.2.1"
   }
 }

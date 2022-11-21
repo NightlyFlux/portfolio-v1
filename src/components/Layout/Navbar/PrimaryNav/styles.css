@@ -1,0 +1,3 @@
+.primary-nav {
+  @apply hidden sm:flex sm:flex-1 sm:ml-8 sm:space-x-1;
+}

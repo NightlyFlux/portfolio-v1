@@ -1,0 +1,7 @@
+.navbar {
+  @apply backdrop-blur-md bg-neutral-100/50 fixed flex h-14 items-center left-0 right-0 top-0 z-30 dark:bg-neutral-800/50;
+}
+
+.navbar-wrapper {
+  @apply container flex items-center justify-between w-full;
+}

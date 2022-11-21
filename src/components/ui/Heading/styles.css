@@ -1,0 +1,29 @@
+.heading {
+  @apply font-bold font-mPlus;
+}
+
+.heading.underlined {
+  @apply mb-12 inline-block relative;
+  @apply after:absolute after:bg-violet-500/80 after:block after:-bottom-3 after:duration-200 after:h-1.5 after:left-0 after:rounded-full after:transition-all after:w-12;
+  @apply after:hover:w-full;
+}
+
+h1.heading {
+  @apply text-4xl sm:text-5xl;
+}
+
+h2.heading {
+  @apply text-3xl sm:text-4xl;
+}
+
+h3.heading {
+  @apply text-2xl sm:text-3xl;
+}
+
+h4.heading {
+  @apply text-xl sm:text-2xl;
+}
+
+h5.heading {
+  @apply text-lg sm:text-xl;
+}

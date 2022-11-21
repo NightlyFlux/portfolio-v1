@@ -1,0 +1,11 @@
+.tag {
+  @apply bg-violet-900/10 font-semibold inline-flex items-center leading-tight max-w-full min-h-[1.5rem] min-w-[1.5rem] px-2 rounded-lg space-x-1 text-violet-700 text-xs dark:bg-violet-700/50 dark:text-violet-300 sm:text-sm;
+}
+
+.tag-icon {
+  @apply flex-shrink-0 inline-block self-center;
+}
+
+.tag-text {
+  @apply overflow-hidden text-ellipsis;
+}

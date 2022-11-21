@@ -1,0 +1,25 @@
+/* Layout */
+@import '../components/Layout/Navbar/styles.css';
+@import '../components/Layout/Navbar/Logo/styles.css';
+@import '../components/Layout/Navbar/MobileNav/styles.css';
+@import '../components/Layout/Navbar/NavItem/styles.css';
+@import '../components/Layout/Navbar/PrimaryNav/styles.css';
+@import '../components/Layout/Navbar/SocialNav/styles.css';
+@import '../components/Layout/Content/styles.css';
+@import '../components/Layout/Footer/styles.css';
+
+/* Sections */
+@import '../components/sections/Hero/styles.css';
+@import '../components/sections/About/styles.css';
+@import '../components/sections/Skills/styles.css';
+@import '../components/sections/Skills/Skill/styles.css';
+@import '../components/sections/Projects/styles.css';
+@import '../components/sections/Projects/Project/styles.css';
+@import '../components/sections/Contact/styles.css';
+
+/* UI */
+@import '../components/ui/Alert/styles.css';
+@import '../components/ui/Button/styles.css';
+@import '../components/ui/Divider/styles.css';
+@import '../components/ui/Heading/styles.css';
+@import '../components/ui/Tag/styles.css';

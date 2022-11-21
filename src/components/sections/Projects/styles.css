@@ -1,0 +1,7 @@
+.projects-content {
+  @apply flex flex-col space-y-10;
+}
+
+.projects-button {
+  @apply mt-10 flex flex-col items-center;
+}

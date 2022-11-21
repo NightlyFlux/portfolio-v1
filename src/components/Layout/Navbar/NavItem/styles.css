@@ -1,0 +1,6 @@
+.nav-item {
+  @apply duration-200 font-semibold inline-flex items-center justify-center max-h-9 p-2.5 rounded-lg select-none space-x-2 transition-all;
+  @apply hover:text-violet-500 hover:bg-violet-300/20 dark:hover:bg-violet-300/5;
+  @apply focus:text-violet-500 focus:bg-violet-300/40 dark:focus:bg-violet-300/10;
+  @apply active:text-violet-500 active:bg-violet-300/60 dark:active:bg-violet-300/20;
+}
